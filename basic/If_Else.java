@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class If_Else{
+public class If_Else{
     public static void main(String[] args) {
         System.out.println("Enter your age: ");
         Scanner sc=new Scanner(System.in);

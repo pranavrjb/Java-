@@ -1,9 +1,10 @@
-class Ternary{
+public class Ternary{
     public static void main(String[] args) {
         int n=5;
-        int result=0;
+        int n1=10;
+        int result;
         
-        result = n%2==0 ? 10:20;
+        result = n< n1 ? 1 : 0; // condition?true:false;
         System.out.println(result);
     }
 }
