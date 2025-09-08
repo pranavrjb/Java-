@@ -5,6 +5,7 @@ public class Array {
         int arr[]={1,2,3,4,5};
         System.out.println(arr[3]);
         //out: 4
+
         int arr2[]=new int[4];
         arr2[0]=9;
         arr2[1]=2;
@@ -14,8 +15,8 @@ public class Array {
             System.out.println(arr2[i]);
         }
 
-        int arr1[][] = { {1,2,3}, {4,5,6} };
-        System.out.println(arr1[0][1]);
+        int arr1[][] = { {1,2,3}, {4,5,6},{7,8,9} };
+        System.out.println(arr1[2][1]);
         // out: 2
     }
 }
