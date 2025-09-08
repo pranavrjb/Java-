@@ -4,8 +4,11 @@ public class Demo {
     sb.append(" Wakler");
     System.out.println(sb);
     System.out.println("Jenny" + "Wakler");
+    //tread safe 
+    
     StringBuilder sb1=new StringBuilder("Hrishita");
     sb1.append(" Tamrakar");
     System.out.println(sb1);
+    //it is not thread safe 
    } 
 }

@@ -1,5 +1,7 @@
 class Computer{
+    
     //Method is a block of code designed to perform a specific task and is executed when it is called or invoked.
+    
     public void playMusic(){
         System.out.println("Playing Music");
     }

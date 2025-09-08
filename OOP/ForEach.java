@@ -23,10 +23,10 @@ public class ForEach {
         s[0]=s1;
         s[1]=s2;
         s[2]=s3;
-        
+
         //for(datatype variable:collection_or_array)
-        for(Student student:s){
-            System.out.println(student.Name + ":" + student.marks);
+        for(Student stud:s){
+            System.out.println(stud.Name + ":" + stud.marks);
         }
     }
 }
