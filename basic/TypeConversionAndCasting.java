@@ -6,7 +6,7 @@ class TypeConversionAndCasting{
     // Here, int is 4 bytes and Int automatically converted to double i.e 8 byte.
 
     System.out.println("Interger Value: "+ num);
-    System.out.println("Double value {after implicit}: "+d);
+    System.out.println("Double value {after implicit}: "+ d);
 
     //Casting or Explicit Casting
     double d1=9.89;

@@ -20,20 +20,22 @@ public class Loops{
         // int i=5;
         // do {
         //     System.out.println("Hello");
-        // } while (i<=4);
-        // i++;
+        // } while (i<=4){
+        //     System.out.println("HElLLO");
+        //     i++;
+        // };
         // System.out.println("Bye: "+i);
 
         // for loop
-        // for (int i=1;i<=4;i++){
-        //     System.out.println("Day: "+i);
-        // }
+        for (int i=1;i<=4;i++){
+            System.out.println("Day: "+i);
+        }
         int i=1;
         while (i<=10){
             int n=2;
             int product=n*i;
             System.out.println(n + " * " + i + " = " + product);
             i++;
-        }
+        } 
     }
 }

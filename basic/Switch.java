@@ -1,6 +1,6 @@
 public class Switch{
     public static void main(String[] args) {
-    int n = 4;
+    int n = 9;
     switch (n) {
         case 1:
             System.out.println("Sunday");
@@ -24,6 +24,7 @@ public class Switch{
         System.out.println("Saturday");
         break;
         default:
+        System.out.println("case doesnot exist!");
             break;
     }
     }

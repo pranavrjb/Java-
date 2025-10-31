@@ -7,7 +7,7 @@ class Mobile{
         System.out.println(brand + ":" + price + ":" +name);
     }
     public static void show(Mobile mb){
-        System.out.println(mb.brand + ":"+ mb.price + ":" +name);
+        System.out.println(mb.brand + ":"+ mb.price+ ":" +name);
     }
 }
 public class StaticMethod {
@@ -23,7 +23,7 @@ public class StaticMethod {
         
         Mobile.name="Smart-Phone";
         
-        mb.display();
+        // mb.display();
         mb1.display();
         Mobile.show(mb);
     }
