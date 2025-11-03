@@ -1,4 +1,5 @@
 class Calculator{
+    //overloading can be defined as the same method name with diff params.
     public int add(int n1,int n2){
         return n1+n2;
     }

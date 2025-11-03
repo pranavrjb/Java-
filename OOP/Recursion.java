@@ -10,3 +10,5 @@ public class Recursion{
         System.out.println("Factorial of 5 is: "+fact(5));
     }
 }
+
+//system.gc();

@@ -5,8 +5,8 @@ class Student{
     int age;
     String address;
 
-    void dispalyInfo(){
-        System.out.println(name + " is "+ age + "year old! "+ "Address " + address);
+    void displayInfo(){
+        System.out.println(name + " is "+ age + "year old! "+ "Address is " + address);
     }
 }
 public class VarAndMethods{
@@ -15,6 +15,6 @@ public class VarAndMethods{
         sc.name="Hrishita";
         sc.address="Biratnagar";
         sc.age=17;
-        sc.dispalyInfo();
+        sc.displayInfo();
     }
 }
