@@ -17,25 +17,36 @@ public class Loops{
         // }
 
         //do while loop
-        // int i=5;
+        // int i=1;
         // do {
-        //     System.out.println("Hello");
-        // } while (i<=4){
-        //     System.out.println("HElLLO");
+        //     System.out.println("Hi");
+        //     System.out.println("HELLO");
         //     i++;
-        // };
-        // System.out.println("Bye: "+i);
-
+        // } while (i<=4);
+          
+        // System.out.println("Bye: "+i); // i will be 5 after the loop
         // for loop
-        for (int i=1;i<=4;i++){
-            System.out.println("Day: "+i);
-        }
-        int i=1;
-        while (i<=10){
-            int n=2;
-            int product=n*i;
-            System.out.println(n + " * " + i + " = " + product);
-            i++;
-        } 
+        // for (int i=1;i<=4;i++){
+        //     System.out.println("Day: "+i);
+        // }
+        //Mutliplication of 2
+        // int i=1;
+        // while (i<=10){
+        //     int n=2;
+        //     int product=n*i;
+        //     System.out.println(n + " * " + i + " = " + product);
+        //     i++;
+        // } 
+        //foreach loops
+int[] nums={2,4,6,8,10};
+for (int x: nums){
+    System.out.println(x);
+}
     }
 }
+
+//do while loops execute atleast 1 time even it doesnt match the condition whereas while loops run only if the condition matches.
+
+//break continue and return 
+
+

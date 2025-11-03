@@ -7,7 +7,6 @@ public class Recursion{
         }
     }
     public static void main(String[] args) {
-       int output=fact(5);
-        System.out.println("Factorial of 5 is: "+output);
+        System.out.println("Factorial of 5 is: "+fact(5));
     }
 }
