@@ -18,3 +18,9 @@ public class Abstract {
         d.sleep(); //calls normal method
     }
 }
+
+//Object class
+// 1. toString() -> return string representation
+// 2. equals() -> compare the obj
+// 3. hashCode() -> returns hash values
+// 4. getClass() -> returns class info
