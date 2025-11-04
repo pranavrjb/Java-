@@ -1,0 +1,11 @@
+what is a string?
+A string can be define as a sequence of a characters where it is enclosed in double quotes.
+
+Syntax:
+String name = "Java";
+
+Imp String Features
+Strings in Java are immutable. (cannot be changed once created).
+Any modification creates a new obj.
+
+String Buffer
