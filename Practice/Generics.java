@@ -40,3 +40,18 @@
 //     System.out.println(data);
 // }
 
+public class Generics {
+public static <T> void printArray(T[] datas){
+    for(T data: datas){
+        System.out.print(data + " ");
+    }
+    System.out.println();
+}
+    public static void main(String[] args) {
+        Integer[] intArray={1,2,3,4,5};
+        String[] strArray={"a","b","v","c"};
+        printArray(intArray);
+        printArray(strArray);
+
+    }
+}
