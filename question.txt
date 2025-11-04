@@ -1,0 +1,29 @@
+Write a program to check whether a number is even or odd.
+Write a program to calculate factorial of a number using for loop.
+Write a program to find whether a number is prime or not.
+Write a program to print all elements of an array using for-each loop.
+Write a program to find the sum and average of an array.
+Write a program to find the largest element in a 2D array.
+Create an interface Shape with method draw(). Implement Rectangle and Circle classes. Call draw() for both objects.
+Create an abstract class Vehicle with abstract method start(). Derive Car and Bike classes and implement start(). Instantiate both.
+Create an interface Flyable with method fly(). Create classes Bird and Airplane implementing Flyable. Call fly() method for each.
+Create an interface Animal with method sound(). Create Dog and Cat classes. Call sound() for both using a parent reference (dynamic dispatch).
+Create a class Person with field age. Throw a custom exception if age < 0.
+Write a program that reads integers from the user and handles InputMismatchException.
+Create a class BankAccount with method withdraw(). Throw InsufficientBalanceException if balance < amount.
+Demonstrate try-catch-finally block with division by zero and print a message in finally.
+Create a class Student with fields name and marks. Overload method display() to show name only and name with marks.
+Create a class Calculator with overloaded add() method (int, double, float).
+Create a class Employee with constructor overloading (one constructor with name only, one with name & salary).
+Create class Person with method info(). Extend it with Student and Teacher. Override info() in both and demonstrate runtime polymorphism.
+Create a class hierarchy Shape -> Rectangle, Circle. Use super to call parent constructor.
+Create an abstract class Account with abstract method calculateInterest(). Create SavingAccount and FixedAccount classes and implement the method.
+Create a generic class Box<T> to store an item of any type and display it.
+Create a generic method printArray(T[] arr) that prints any array elements.
+Create a bounded generic class Calculator<T extends Number> to add two numbers.
+Demonstrate use of wildcard ? in a method to print any list.Write a program to reverse a string using StringBuffer.
+Count vowels in a string using String.
+Build a string using StringBuilder by appending multiple words and then reverse it.
+Write a program to read text from a file and count the number of lines.
+Write a program to create 5 Course objects, save their details in a file, and read/display them.
+Write a program to search and display records in a file where the title starts with “C”.

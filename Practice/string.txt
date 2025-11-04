@@ -8,4 +8,29 @@ Imp String Features
 Strings in Java are immutable. (cannot be changed once created).
 Any modification creates a new obj.
 
-String Buffer
+String Buffer class
+It use when we need modifiable (mutable) string.
+It is thread-safe (sychronized).
+common method are append(), insert(), delete(), reverse()
+
+String builder 
+It is quite similar to string buffer but faster, as it is used in single thread programs as it is not sychronized.
+
+Difference between StringBuffer and StringBUilder
+
+StringBuffer                        StringBUilder
+It mutable                          it is also mutable
+It is thread safe                   it is not thread safe
+It is slow                          It is faster compare to StringBuffer
+It is sychronized                   it is not sychronized
+
+wrapper class?
+Wrapper class can be define as a class which wrap an object or contain primitive data types and use it as an obj.
+
+Why we need wrapper class?
+As Java is an object oriented programming language, as it provide many advanced Features such as collections and generics which only works with an obj rather than data type. So to fill this gap wrapper class is essentials.
+or 
+In simple language, Java is an object-oriented language, and many of its advanced features, like Collections (e.g., ArrayList), and Generics, are designed to work only with objects, not primitive data types. Wrapper classes bridge this gap.
+
+define autoboxing and unboxing
+In Java, autoboxing and unboxing are the automatic conversions betn primitive data types and their wrapper classes.
