@@ -1,9 +1,8 @@
 Write a program to check whether a number is even or odd.
 Write a program to calculate factorial of a number using for loop.
-Write a program to find whether a number is prime or not.
+Write a program to find whether a number is prime or not.                   
 Write a program to print all elements of an array using for-each loop.
 Write a program to find the sum and average of an array.
-Write a program to find the largest element in a 2D array.
 Create an interface Shape with method draw(). Implement Rectangle and Circle classes. Call draw() for both objects.
 Create an abstract class Vehicle with abstract method start(). Derive Car and Bike classes and implement start(). Instantiate both.
 Create an interface Flyable with method fly(). Create classes Bird and Airplane implementing Flyable. Call fly() method for each.
